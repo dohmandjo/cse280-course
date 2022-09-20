@@ -3,8 +3,13 @@
 (c) BYU-Idaho - It is an honor code violation to post this
 file completed or uncompleted in a public file sharing site.
 
-**Instructions**: Answer each question using proper markdown notation as needed.  Use the preview view in Visual Studio Code (or other editor you may be using) to see the formatting, tables, and mathematical formulae.  If you need to write code, first test in a separate file and then copy the code into this document using code fences.  Submit the markdown file (not a pdf) into I-Learn.
+**Instructions**: Answer each question using proper markdown notation as needed.  Use the preview view in Visual Studio Code (or another editor if desired) to see the formatting, tables, and mathematical formula properly rendered.  If you need to write code, then first test your code in a separate file and then copy the code into this document using code fences. 
 
+**Name**:
+
+**Section**:
+
+**Teacher**:
 
 ## Question 1
 
