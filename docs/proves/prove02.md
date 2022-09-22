@@ -13,8 +13,6 @@ file completed or uncompleted in a public file sharing site.
 
 ## Question 1
 
-## Question 1
-
 Complete the following truth table to show that $A \equiv B$ (logically equivalent) where
 
 $A : p \to \neg (q \land r)$
