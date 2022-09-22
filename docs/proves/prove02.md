@@ -13,22 +13,32 @@ file completed or uncompleted in a public file sharing site.
 
 ## Question 1
 
-Let p be the proposition "I studied." and let q be the proposition "I got an A on the test."  Express the following propositions as English sentences (the first one is done for you):
+## Question 1
 
-|Proposition|English Sentence|
-|-|-|
-|$p \to q$|If I studied, then I got an A on the test.|
-|Converse: $q \to p$||
-|Inverse: $\neg p \to \neg q$||
-|Contrapositive: $\neg q \to \neg p$||
+Complete the following truth table to show that $A \equiv B$ (logically equivalent) where
+
+$A : p \to \neg (q \land r)$
+
+$B : \neg (p \land q \land r)$
+
+|$p$|$q$|$r$|$q \land r$|$\neg (q \land r)$|$A: p \to \neg (q \land r)$|$p \land q \land r$|$B: \neg (p \land q \land r)$|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|T|T|T||||||
+|T|T|F||||||
+|T|F|T||||||
+|T|F|F||||||
+|F|T|T||||||
+|F|T|F||||||
+|F|F|T||||||
+|F|F|F||||||
 
 ## Question 2
 
-Determine if the following propositions written in English are True or False.
+Determine if the following propositions written in English are True or False (the first one is done for you):
 
 |Proposition|True or False|
 |-|-|
-|If $2+2=4$, then pigs can fly.||
+|If $2+2=4$, then pigs can fly.|False|
 |If $2+7=5$, then Elvis is alive.||
 |If pigs can fly, then dogs can't fly.||
 |$2+1=3$ if and only if $1+2=3$.||
@@ -48,22 +58,22 @@ express the following propositions in English senteneces (the first two are done
 
 |Proposition|English Sentence|
 |-|-|
-|$\exists x P(x)$|There exists a person who is older than 21.|
-|$\forall x P(x)$|All people are older than 21.|
-|$\exists x \neg P(x)$||
-|$\forall x \neg P(x)$||
-|$\exists x S(x)$||
-|$\forall x S(x)$||
-|$\neg \exists x S(x)$||
-|$\exists x \neg S(x)$||
-|$\neg \forall x \neg S(x)$||
-|$\forall x \neg S(x)$||
+|$\exists x \ P(x)$|There exists a person who is older than 21.|
+|$\forall x \ P(x)$|All people are older than 21.|
+|$\exists x \ \neg P(x)$||
+|$\forall x \ \neg P(x)$||
+|$\exists x \ S(x)$||
+|$\forall x \ S(x)$||
+|$\neg \exists x \ S(x)$||
+|$\exists x \ \neg S(x)$||
+|$\neg \forall x \ \neg S(x)$||
+|$\forall x \ \neg S(x)$||
 
 ## Question 4
 
 Using the following predicates where the domain of $x$ is the set of all people:
 
-$F(x) = x \text{ is a friend}$
+$F(x) = x \text{ is my friend}$
 
 $C(x) = x \text{ is cool}$
 
@@ -71,18 +81,27 @@ $S(x) = x \text{ is a student}$
 
 $N(x) = x \text{ is from Nepal}$
 
-express the following propositions in English senteneces (the first two are done for you):
+identify which of the following english sentences match to each proposition (the first one is done for you).  Each sentence matches to one of the propositions in the table.
+
+* All people are students and from Nepal.
+* All of my friends are cool.
+* Some of my friends are cool.
+* Some student is from Nepal.
+* Someone is my friend and is cool.
+* All students are from Nepal.
+* Everyone is a friend and is cool.
+* Some students are from Nepal.
 
 |Proposition|English Sentence|
 |-|-|
-|$\forall x (F(x) \to C(x))$|All people that are friends are cool.|
-|$\exists x (F(x) \land C(x))$|There exists a person who is a friend and is cool.|
-|$\forall x (F(x) \land C(x))$||
-|$\exists x (F(x) \to C(x))$||
-|$\forall x (S(x) \to N(x))$||
-|$\exists x (S(x) \to N(x))$||
-|$\forall x (S(x) \land N(x))$||
-|$\exists x (S(x) \land N(x))$||
+|$\forall x \ (F(x) \to C(x))$|All of my friends are cool.|
+|$\exists x \ (F(x) \land C(x))$||
+|$\forall x \ (F(x) \land C(x))$||
+|$\exists x \ (F(x) \to C(x))$||
+|$\forall x \ (S(x) \to N(x))$||
+|$\exists x \ (S(x) \to N(x))$||
+|$\forall x \ (S(x) \land N(x))$||
+|$\exists x \ (S(x) \land N(x))$||
 
 ## Question 5
 
@@ -90,16 +109,36 @@ Evaluate the following propositions to be True or False given that the domain of
 
 |Proposition|True or False|
 |-|-|
-|$\forall x (x \text{ is odd})$||
-|$\exists x (x \text{ is odd})$||
-|$\forall x (x \text{ is negative})$||
-|$\exists x (x \text{ is negative})$||
-|$\forall x (x^2 \gt 0)$||
-|$\exists x (x^2 \gt 0)$||
-|$\exists x (x + x = 1)$||
-|$\exists x (x + 2 = 1)$||
+|$\forall x \ (x \text{ is odd})$||
+|$\exists x \ (x \text{ is odd})$||
+|$\forall x \ (x \text{ is negative})$||
+|$\exists x \ (x \text{ is negative})$||
+|$\forall x \ (x^2 \ge 0)$||
+|$\exists x \ (x^2 \ge 0)$||
+|$\exists x \ (x + x = 1)$||
+|$\exists x \ (x + 2 = 1)$||
 
 ## Question 6
+
+Translate the following statements into logical expressoins using quantifiers (e.g. $\forall \ \exists$), operators/connectives (e.g. $\land \lor \neg \to$), and the following predicates (where the domain of $x$ is the set of all people):
+
+$C(x) = \text{ is a critic.}$
+
+$P(x) = \text{ is perfect.}$
+
+$F(x) = \text{ is your friend.}$
+
+The first one is done for you.
+
+|English Sentence|Proposition|
+|-|-|
+|Everyone is a critic.|$\forall x \ C(x)$|
+|No one is perfect.||
+|At least one of your friends is perfect.||
+|All of your friends are critics.||
+|Everyone is both your friend and a critic.||
+
+## Question 7
 
 The DeMorgan laws can be useful to simplify conditional logic in software.  The following predicates are implemented in the three functions below.  Apply the De Morgan law to each predicate and write the code for the simplified predicate.  The test code verifies that you applied De Morgan correctly.
 
