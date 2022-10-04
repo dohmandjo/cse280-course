@@ -13,17 +13,17 @@ file completed or uncompleted in a public file sharing site.
 
 ## Question 1
 
-Write three propositions: 
+Identify (with an "X") whether each statement is either a proposition or non-propisition.  The first two are done for you:
 
-1.
-2.
-3.
-
-Write three non-propositions:
-
-1.
-2.
-3.
+|Statement|Proposition|Non-Propisition|
+|:-:|:-:|:-:|
+|I got an A in CSE 280|X||
+|Hello!||X|
+|The hose has a leak.|||
+|The wind speed is greater than 30 miles per hour.|||
+|Close the window.|||
+|The window is closed.|||
+|Are you graduating this semester?|||
 
 ## Question 2
 

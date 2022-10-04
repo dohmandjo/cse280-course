@@ -81,7 +81,7 @@ $N(x) = x \text{ is from Nepal}$
 
 identify which of the following english sentences match to each proposition (the first one is done for you).  Each sentence matches to one of the propositions in the table.
 
-* All people are students and from Nepal.
+* All people are both students and from Nepal.
 * All of my friends are cool.
 * Some of my friends are cool.
 * Some student is from Nepal.
