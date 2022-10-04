@@ -57,11 +57,11 @@ For each set described below, list 4 example values that would be in that set.  
 
 ## Question 5
 
-Let $A = \lbrace 0, 2, 3 \rbrace$, $B = \lbrace 2, 3 \rbrace$, and $C = \lbrace 1, 5, 9 \rbrace$, and the universal set $U = \lbrace 0, 1, 2, ...,  9 \rbrace$.  Determine the resulting sets for the following operations:
+Let $A = \lbrace 0, 2, 3 \rbrace$, $B = \lbrace 2, 3 \rbrace$, and $C = \lbrace 1, 5, 9 \rbrace$, and the universal set $U = \lbrace 0, 1, 2, ...,  9 \rbrace$.  Determine the resulting sets for the following operations.  The first one is done for you,
 
 |Operation|Resulting Set|
 |:-:|:-:|
-|$A \cap B$||
+|$A \cap B$|$\lbrace 2, 3 \rbrace$|
 |$A \cup B$||
 |$B \cup A$||
 |$A \cup C$||
