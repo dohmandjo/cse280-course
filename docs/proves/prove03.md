@@ -146,8 +146,7 @@ Using the starting code below to create set comprehensions as follows:
 |Set1|$\lbrace \frac 1 n \mid n \in \lbrace 2, 4, 8, 16 \rbrace \rbrace$|
 |Set2|$\lbrace n^2 \mid n \in \lbrace -2, -1, 0, 1, 2 \rbrace \rbrace$|
 |Set3|$\lbrace n \mid n \in \mathbf{Z}^+ \land n \text{ is a factor of } 24 \rbrace$|
-|Set4|$\lbrace \alpha \mid \alpha \in \text{ the English alphabet } \land \alpha \text { precedes the letter F} \rbrace$|
-|Set5|$\lbrace n \mid n \in \mathbf{Z} \land n \ge -10 \land n \le 10 \land n \text { is odd.} \rbrace$|
+|Set4|$\lbrace n \mid n \in \mathbf{Z} \land n \ge -10 \land n \le 10 \land n \text { is odd.} \rbrace$|
 
 
 ```python
@@ -155,11 +154,10 @@ Set1 = None # Add Set Comprehension Code Here
 Set2 = None # Add Set Comprehension Code Here
 Set3 = None # Add Set Comprehension Code Here
 Set4 = None # Add Set Comprehension Code Here
-Set5 = None # Add Set Comprehension Code Here
 
+# Note that sets do not maintain order so it may vary
 print(Set1)
 print(Set2)
 print(Set3)
 print(Set4)
-print(Set5)
 ```
