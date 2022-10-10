@@ -21,3 +21,13 @@ Starting Code:
 Completed Code:
 
 * REPL 2A - https://replit.com/@cmacbeth/CSE180Week2ASolved
+
+## Week 3
+
+Starting Code:
+
+* REPL 3A - https://replit.com/@cmacbeth/CSE280Week3A
+
+Completed Code:
+
+* REPL 3A - https://replit.com/@cmacbeth/CSE180Week3ASolved
