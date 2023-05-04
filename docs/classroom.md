@@ -10,7 +10,7 @@ Starting Code:
 
 Completed Code:
 
-* REPL 1A - https://replit.com/@cmacbeth/CSE180Week1ASolved
+* REPL 1A - https://replit.com/@cmacbeth/CSE280Week1ASolved
 
 ## Week 2
 
@@ -20,7 +20,7 @@ Starting Code:
 
 Completed Code:
 
-* REPL 2A - https://replit.com/@cmacbeth/CSE180Week2ASolved
+* REPL 2A - https://replit.com/@cmacbeth/CSE280Week2ASolved
 
 ## Week 3
 
@@ -30,7 +30,7 @@ Starting Code:
 
 Completed Code:
 
-* REPL 3A - https://replit.com/@cmacbeth/CSE180Week3ASolved
+* REPL 3A - https://replit.com/@cmacbeth/CSE280Week3ASolved
 
 ## Week 4
 
@@ -40,7 +40,7 @@ Starting Code:
 
 Completed Code:
 
-* REPL 4A - https://replit.com/@cmacbeth/CSE180Week4ASolved
+* REPL 4A - https://replit.com/@cmacbeth/CSE280Week4ASolved
 
 ## Week 5
 
@@ -56,6 +56,24 @@ Starting Code:
 
 Completed Code:
 
-* REPL 6A - https://replit.com/@cmacbeth/CSE180Week6ASolved
-* REPL 6B - https://replit.com/@cmacbeth/CSE180Week6BSolved
-* REPL 6C - https://replit.com/@cmacbeth/CSE180Week6CSolved
+* REPL 6A - https://replit.com/@cmacbeth/CSE280Week6ASolved
+* REPL 6B - https://replit.com/@cmacbeth/CSE280Week6BSolved
+* REPL 6C - https://replit.com/@cmacbeth/CSE280Week6CSolved
+
+## Week 7
+
+Starting Code:
+
+* REPL 7A - https://replit.com/@cmacbeth/CSE280Week7A
+* REPL 7B - https://replit.com/@cmacbeth/CSE280Week7B
+* REPL 7C - https://replit.com/@cmacbeth/CSE280Week7C
+
+Completed Code:
+
+* REPL 7A - https://replit.com/@cmacbeth/CSE280Week7ASolved
+* REPL 7B - https://replit.com/@cmacbeth/CSE280Week7BSolved
+* REPL 7C - https://replit.com/@cmacbeth/CSE280Week7CSolved
+
+## Week 8
+
+No code examples this week.
