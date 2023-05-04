@@ -27,19 +27,6 @@ Identify (with an "X") whether each statement is either a proposition or non-pro
 
 ## Question 2
 
-Let $p$ be the proposition "I studied." and $q$ be the proposition "I got an A on the test."  Express the following symbolic propositions in English (the first one is done for you):
-
-1. $p \land q$ : I studied and I got an A on the test.
-2. $\neg p \land q$ :
-3. $p \land \neg q$ :
-4. $\neg p \land \neg q$ :
-5. $p \lor q$ :
-6. $\neg p \lor q$ :
-7. $p \lor \neg q$ :
-8. $\neg p \lor \neg q$ :
-
-## Question 3
-
 Complete the following truth tables (the first one is done for you):
 
 1. $p \land q$
@@ -104,7 +91,40 @@ Complete the following truth tables (the first one is done for you):
 |F|F|T||||||
 |F|F|F||||||
 
+## Question 3
+
+Complete the following truth table to show that $A \equiv B$ (logically equivalent) where
+
+$A : p \to \neg (q \land r)$
+
+$B : \neg (p \land q \land r)$
+
+|$p$|$q$|$r$|$q \land r$|$\neg (q \land r)$|$A: p \to \neg (q \land r)$|$p \land q \land r$|$B: \neg (p \land q \land r)$|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|T|T|T||||||
+|T|T|F||||||
+|T|F|T||||||
+|T|F|F||||||
+|F|T|T||||||
+|F|T|F||||||
+|F|F|T||||||
+|F|F|F||||||
+
 ## Question 4
+
+Determine if the following propositions written in English are True or False (the first one is done for you):
+
+|Proposition|True or False|
+|-|-|
+|If $2+2=4$, then pigs can fly.|False|
+|If $2+7=5$, then Elvis is alive.||
+|If pigs can fly, then dogs can't fly.||
+|$2+1=3$ if and only if $1+2=3$.||
+|$1+2=3$ if and only if $3+1=6$.||
+|$1+3=2$ if and only if the earth is flat.||
+|$1 \lt 2$ if an only if $2 \lt 3$.||
+
+## Question 5
 
 There is another operator called exclusive or which uses the operator symbol $\oplus$.  It is like the traditional $\lor$ but it excludes the case where both $p$ and $q$ are True.  This operator is used frequently in electronics.  The truth table for $p \oplus q$ is given below:
 

@@ -1,4 +1,4 @@
-# CSE 280 Prove 06
+# CSE 280 Prove 6
 
 (c) BYU-Idaho - It is an honor code violation to post this
 file completed or uncompleted in a public file sharing site.
@@ -13,92 +13,106 @@ file completed or uncompleted in a public file sharing site.
 
 ## Question 1
 
-Evaluate the following as "True" or "False":
+Fill in the adjacency table below for the graph below:
 
-|Expression|Answer|
+![](prove06_graph1.png)
+
+|Vertex|Adjacent Verticies|
 |:-:|:-:|
-|$3 \vert 12$||
-|$3 \vert 13$||
-|$14 \vert 58$||
-|$73 \vert 1752$||
-|$73 \vert 1753$||
+|0||
+|1||
+|2||
+|3||
+|4||
 
 ## Question 2
 
-Given the following expressions, solve for $n$:
+The list of 9 graphs below have 4 pairs of isomorphic graphs.  Find the 4 pairs.  Note that one of the graphs does not have a match.
 
-|Expressions|$n$|
+![](prove06_graph2.png)
+
+|#|Isomorphic Pairs|
 |:-:|:-:|
-|$n \text{ div } 11 = 4 \text{ , } n \text{ mod } 11 = 3$||
-|$n \text{ div } 5 = 8 \text{ , } n \text{ mod } 5 = 1$||
-|$n \text{ div } 7 = 9 \text{ , } n \text{ mod } 7 = 0$||
-|$n \text{ div } 15 = 4 \text{ , } n \text{ mod } 15 = 7$||
-|$n \text{ div } 13 = -2 \text{ , } n \text{ mod } 13 = 3$||
+|1st Pair||
+|2nd Pair||
+|3rd Pair||
+|4th Pair||
+
+Source: Question adapted from Applied Discrete Structures by Alan Doerr & Kenneth Levasseur which is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
 
 ## Question 3
 
-For the given values of $x$, $y$, and $m$, determine if $x \equiv y (\text{mod } m)$ by marking "Yes" or "No" in the congruence column.
+Write python code to create an adjacency table for the undirected graph below.  Second, implement the `find_neighbors` function which will take as input vertex and the adjaceny table and returns a list of verticies that are adjacent to the input vertex.  Finally, implement the `is_neighbor` which takes two verticies and the adjaceny table and returns True if they are adjacent; False otherwise.
 
-|$x$|$y$|$m$|$x \equiv y (\text{mod } m)$|
-|:-:|:-:|:-:|:-:|
-|24|32|3||
-|24|80|7||
-|83|59|8||
-|222|122|10||
-|17|6|5||
-|81|37|11||
+![](prove06_graph3.png)
+
+```python
+adjacency_table = None # Add your code here
+
+def find_neighbors(vertex, adjaceny_table):
+    # Add your code here
+    return None
+
+def is_neighbor(vertex1, vertex2, adjacency_table):
+    # Add your code here
+    return None
+
+print(find_neighbors('A', adjacency_table)) # should print ['B', 'C']
+print(find_neighbors('D', adjacency_table)) # should print ['C', 'E', 'F']
+
+print(is_neighbor('A','B',adjacency_table)) # True
+print(is_neighbor('D','F',adjacency_table)) # True
+print(is_neighbor('C','F',adjacency_table)) # False
+```
 
 ## Question 4
-Find the GCD and LCM of the following numbers shown in non-decresasing prime factorization format.  Write your answers using non-decreasing prime factorization.  The first GCD one is done for you.
 
-|$x$|$y$|$GCD(x,y)$|$LCM(x,y)$|
-|:-:|:-:|:-:|:-:|
-|$2^3 \sdot 3^2 \sdot 5$|$2 \sdot 3^3 \sdot 5^2 \sdot 7$|$2 \sdot 3^2 \sdot 5$||
-|$2 \sdot 5^3 \sdot 7 \sdot 11^2$|$2^3 \sdot 3 \sdot 5 \sdot 11$|||
-|$2^2 \sdot 3 \sdot 7^2 \sdot 13$|$2 \sdot 3^2 \sdot 5 \sdot 7 \sdot 13^2$|||
+Determine if the graph below has an Euler Circuit.  If it does, then write down the sequence of verticies that make up the Euler Circuit.  If it does not, then write "No Euler Cycle"
+
+|Graph|Euler Cycle|
+|:-:|:-:|
+|![](prove06_graph4.png)||
+|![](prove06_graph5.png)||
+|![](prove06_graph6.png)||
 
 ## Question 5
 
-Find the numbers in the set $S$ that are part of the equivalance relation $\mathbf{R}_7$.  In other words, find the numbers that are congruent $(\text{mod } 7)$ and put them into the appropriate equivalance classes in the table below.
+Complete the tables below to identify the final state (per the FSM diagram) and whether that final state was an accepting state for each of the inputs.   
 
-$S = \lbrace -48, -26, 1, 8, 3, 70, 24, 32, 11, 5, 27, 19, 49 \rbrace$
+**Part 1**
 
-|Equivalence Class|Values in Equivalance Class|
-|:-:|:-:|
-|$[0]$|$\lbrace  \rbrace$|
-|$[1]$|$\lbrace  \rbrace$|
-|$[2]$|$\lbrace  \rbrace$|
-|$[3]$|$\lbrace  \rbrace$|
-|$[4]$|$\lbrace  \rbrace$|
-|$[5]$|$\lbrace  \rbrace$|
-|$[6]$|$\lbrace  \rbrace$|
+![](prove06_graph7.png)
+
+|Input|Final State|Accepting (Yes/No)|
+|:-:|:-:|:-:|
+|00101|||
+|011100|||
+|01111|||
+|0101|||
+|00000|||
+|11111|||
+|11100|||
+|10011|||
+
+**Part 2**
+
+![](prove06_graph8.png)
+
+|Input|Final State|Accepting (Yes/No)|
+|:-:|:-:|:-:|
+|00101|||
+|011100|||
+|01111|||
+|0101|||
+|00000|||
+|11111|||
+|11100|||
+|10011|||
 
 ## Question 6
 
-The python code below computes the GCD and LCM for two integers $x$ and $y$.  The GCD function is implemented for you.  Complete the LCM function.  Use the test code to verify your code.
+Describe the bit string recognized/accepted by the following FSM:
 
-```python
-def gcd(x,y):
-    for n in range(min(x,y),1,-1):
-        if x % n == 0 and y % n == 0:
-            return n
-    return 1
+![](prove06_graph9.png)
 
-def lcm(x, y):
-    # Add your code here
-    pass
-
-print(gcd(12,15)) # 3
-print(gcd(12,24)) # 12
-print(gcd(12,18)) # 6 
-print(gcd(7,13))  # 1
-print(gcd(1,2))   # 1
-print(gcd(5,5))   # 5
-print("===================")
-print(lcm(12,15)) # 60
-print(lcm(12,24)) # 24
-print(lcm(12,18)) # 36 
-print(lcm(7,13))  # 91
-print(lcm(1,2))   # 2
-print(lcm(5,5))   # 5
-```
+Answer: 

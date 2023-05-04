@@ -13,37 +13,6 @@ file completed or uncompleted in a public file sharing site.
 
 ## Question 1
 
-Let $A=\lbrace 0, 2, 3 \rbrace$, $B=\lbrace 2, 3 \rbrace$, and $C=\lbrace 1, 4\rbrace$ and let the universal set $U=\lbrace 0, 1, 2, 3, 4 \rbrace$.  List the element pairs for each of the following cartesian products using these sets.  The first one is done for you.
-
-|Cartesian Product|Answer|
-|:-:|:-:|
-|$A \times B$|$\lbrace (0,2), (0,3), (2,2), (2,3), (3,2), (3,3) \rbrace$|
-|$B \times A$||
-|$A \times B \times C$||
-|$A \times \overline{A}$||
-|$B^2$||
-
-## Question 2
-
-Which pairs (there may one pair or more than one pair) of the following sets are pairwise disjoint:
-
-* $A =$ The set of all even numbers.
-* $B =$ The set of all odd numbers.
-* $C =$ The set of all non-negative powers of 2.
-
-Hint: Make a list of numbers that are in each of these sets.
-
-**Answer**: 
-
-## Question 3
-
-List all of the partitions  (how many ways can we split according to the rules) of the set $A = \lbrace a, b, c \rbrace$.
-
-**Answer**: 
-
-
-## Question 4
-
 For each of these functions, determine if they are well-defined, one-to-one, and/or onto.  Put "Yes" or "No" in the appropriate columns.  For the first 4 problems, let $A=\lbrace 1,2,3,4 \rbrace$ and $B=\lbrace a, b, c, d \rbrace$.  For the last 4 functions written in the format $f(x)=$ you may find it helpful to graph the function on [Desmos](https://www.desmos.com/).  The first one is done for you.
 
 |Function|Well-Defined|One-to-One|Onto|
@@ -54,11 +23,11 @@ For each of these functions, determine if they are well-defined, one-to-one, and
 |$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(2,c),(3,a),(4,a) \rbrace$||||
 |$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = x^3-x$||||
 |$f : \mathbf{Z} \to \mathbf{Z}, \text{ where } f(x) = -x+2$||||
-|$f : \mathbf{Z}^+ \to \mathbf{Z}^+, \text{ where } f(x) = \lceil \frac {n}{2} \rceil$|||
+|$f : \mathbf{Z}^+ \to \mathbf{Z}^+, \text{ where } f(x) = \lceil \frac {n}{2} \rceil$||||
 |$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$||||
-|$f : \lbrace x \in \mathbf{R} : x \ne 5 \rbrace, \text{ where } f(x) = \frac{5}{x-5}$||||
+|$f : \lbrace x \mid x \in \mathbf{R} , x \ne 5 \rbrace \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$||||
 
-## Question 5
+## Question 2
 
 Explain why $f : \mathbf{R} \to \mathbf{R} \text{ where } f(x) = x^2$ is a well defined funtion but is niether one-to-one nor onto (with counterexamples as needed).
 
@@ -67,7 +36,7 @@ Explain why $f : \mathbf{R} \to \mathbf{R} \text{ where } f(x) = x^2$ is a well 
 * Not One-to-One because ...
 * Not Onto because ...
 
-## Question 6
+## Question 3
 
 Find the inverse of each of the following functions, calculate $f(3)$, and then calculate the composition of $(f^{-1} \circ f)(3)$ (which will prove that you have found the correct inverse).
 
@@ -78,7 +47,7 @@ Find the inverse of each of the following functions, calculate $f(3)$, and then 
 |$f : \lbrace x \in \mathbf{R} : x \ge -2 \rbrace \to \mathbf{R}^+$|$x^2-2$||||
 
 
-## Question 7
+## Question 4
 
 Create lambda functions to implement the following functions that have domain of $\mathbf{R}$ and co-domain of $\mathbf{R}$:
 

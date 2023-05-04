@@ -13,24 +13,11 @@ file completed or uncompleted in a public file sharing site.
 
 ## Question 1
 
-Negate each of the following logical statements by adding a negation symbol $\neg$, then apply De Morgan's Laws so that each negation symbol $\neg$ immediately prceeds a predicate.  The first one is done for you.
-
-|Predicate|$\neg$ Predicate|
-|:-:|:-:|
-|$\forall x \forall y \ P(x,y)$|$\exists x \exists y \ \neg P(x,y)$|
-|$\exists x \forall y \ P(x,y)$||
-|$\exists x \exists y \forall z \ \neg P(x,y,z)$||
-|$\forall x \exists y \forall z \ P(x,y,z)$||
-|$\exists x \exists y \ (P(x,y) \land Q(x,y))$||
-|$\forall x \forall y \exists z \ (P(x,y) \to Q(y,z))$||
-
-## Question 2
-
 Let $E$ be the set of even numbers, and let $P$ be the set of prime numbers.  Find all the values in the set formed by $E \cap P$.
 
 **Answer**:  
 
-## Question 3
+## Question 2
 
 Let the following sets be given.  The Universal set for this problem is the set of all students at some univeristy:
 
@@ -42,8 +29,7 @@ Translate $(F \cap M) \subseteq C$ into an english sentance.
 
 **Answer**:
 
-
-## Question 4
+## Question 3
 
 For each set described below, list 4 example values that would be in that set.  The first one is done for you.  Remember that $\mathbf{Z}$ represents integers and $\mathbf{Z}^+$ represents positive integers greater than 0.  The set $\mathbf{Q}$ represents rational numbers that can be represented as a fraction $\frac a b$ where $a, b \in \mathbf{Z}$.
 
@@ -51,11 +37,11 @@ For each set described below, list 4 example values that would be in that set.  
 |:-:|:-:|
 |$\lbrace x \in \mathbf{Z}^+ \mid x-1 \text{ is a multiple of 7} \rbrace$||
 |$\lbrace x \mid x \text{ is a fruit and its skin is normally eaten} \rbrace$||
-|$\lbrace x \in \mathbf{Q} \mid \frac 1 x \in \mathbf{Z} \rbrace$||
+|$\lbrace x \mid x \in \mathbf{Z}, \frac 1 x \rbrace$||
 |$\lbrace 2n \mid n \in \mathbf{Z}, n \lt 0 \rbrace$||
 |$\lbrace s \mid s = 1 + 2 + ... + n \text{ for some } n \in \mathbf{Z}^+ \rbrace$||
 
-## Question 5
+## Question 4
 
 Let $A = \lbrace 0, 2, 3 \rbrace$, $B = \lbrace 2, 3 \rbrace$, and $C = \lbrace 1, 5, 9 \rbrace$, and the universal set $U = \lbrace 0, 1, 2, ...,  9 \rbrace$.  Determine the resulting sets for the following operations.  The first one is done for you,
 
@@ -72,9 +58,37 @@ Let $A = \lbrace 0, 2, 3 \rbrace$, $B = \lbrace 2, 3 \rbrace$, and $C = \lbrace 
 |$A \cap C$||
 |$A \oplus B$||
 
+## Question 5
 
+Let $A=\lbrace 0, 2, 3 \rbrace$, $B=\lbrace 2, 3 \rbrace$, and $C=\lbrace 1, 4\rbrace$ and let the universal set $U=\lbrace 0, 1, 2, 3, 4 \rbrace$.  List the element pairs for each of the following cartesian products using these sets.  The first one is done for you.
+
+|Cartesian Product|Answer|
+|:-:|:-:|
+|$A \times B$|$\lbrace (0,2), (0,3), (2,2), (2,3), (3,2), (3,3) \rbrace$|
+|$B \times A$||
+|$A \times B \times C$||
+|$A \times \overline{A}$||
+|$B^2$||
 
 ## Question 6
+
+Which pairs (there may one pair or more than one pair) of the following sets are pairwise disjoint:
+
+* $A =$ The set of all even numbers.
+* $B =$ The set of all odd numbers.
+* $C =$ The set of all non-negative powers of 2.
+
+Hint: Make a list of numbers that are in each of these sets.
+
+**Answer**: 
+
+## Question 7
+
+List all of the partitions  (how many ways can we split according to the rules) of the set $A = \lbrace a, b, c \rbrace$.
+
+**Answer**: 
+
+## Question 8
 
 In Python, you can create sets using "set comprehensions" (which is similar to "list comprehensions").  We read the following $S = \lbrace P(x) \mid x \in D \land C(x) \rbrace$ in English as "$S$ is the set of all values $P(x)$ such that $x$ is an element of the domain set $D$ and satisifies the condition $C(X)$".  We can translate this into Python code as: `S = {P(x) for x in D if C(x)}`.  The function calls `P(x)` and `C(x)` can be other defined function, other defined lambda function, or expressions written directly in the set comprehension.  Additionally, $D$ could be a set defined in a different variable or it could be provided directly in the set comprehension.
 
