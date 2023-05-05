@@ -13,6 +13,25 @@ file completed or uncompleted in a public file sharing site.
 
 ## Question 1
 
+Complete the following truth table to show that $A \equiv B$ (logically equivalent) where
+
+$A : p \to \neg (q \land r)$
+
+$B : \neg (p \land q \land r)$
+
+|$p$|$q$|$r$|$q \land r$|$\neg (q \land r)$|$A: p \to \neg (q \land r)$|$p \land q \land r$|$B: \neg (p \land q \land r)$|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|T|T|T||||||
+|T|T|F||||||
+|T|F|T||||||
+|T|F|F||||||
+|F|T|T||||||
+|F|T|F||||||
+|F|F|T||||||
+|F|F|F||||||
+
+## Question 2
+
 Using the following predicates where the domain of $x$ is the set of all people:
 
 $P(x) = x \text{ is older than 21}$
@@ -34,7 +53,7 @@ express the following propositions in English senteneces (the first two are done
 |$\neg \forall x \ \neg S(x)$||
 |$\forall x \ \neg S(x)$||
 
-## Question 2
+## Question 3
 
 Using the following predicates where the domain of $x$ is the set of all people:
 
@@ -68,7 +87,7 @@ identify which of the following english sentences match to each proposition (the
 |$\forall x \ (S(x) \land N(x))$||
 |$\exists x \ (S(x) \land N(x))$||
 
-## Question 3
+## Question 4
 
 Evaluate the following propositions to be True or False given that the domain of $x$ is the following integers: $\lbrace -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5 \rbrace$:
 
@@ -83,7 +102,7 @@ Evaluate the following propositions to be True or False given that the domain of
 |$\exists x \ (x + x = 1)$||
 |$\exists x \ (x + 2 = 1)$||
 
-## Question 4
+## Question 5
 
 Negate each of the following logical statements by adding a negation symbol $\neg$, then apply De Morgan's Laws so that each negation symbol $\neg$ immediately prceeds a predicate.  The first one is done for you.
 
@@ -96,7 +115,7 @@ Negate each of the following logical statements by adding a negation symbol $\ne
 |$\exists x \exists y \ (P(x,y) \land Q(x,y))$||
 |$\forall x \forall y \exists z \ (P(x,y) \to Q(y,z))$||
 
-## Question 5
+## Question 6
 
 The following code provides several predicates (`is_even`, `is_natural`, and `is_palindrome`).  There are multiple test cases that will determine whether the quantifier proposition is True or False given the specified domain.  You need to implement the `forall` and `exists` functions.  Hint: You will need to loop through all the items in the `domain` (which is a list) and use the `predicate` (which is a function) to test all or some of the values in the `domain`.
 

@@ -46,6 +46,34 @@ Completed Code:
 
 No code examples this week.
 
+## Week 6
+
+Starting Code:
+
+* REPL 6A - https://replit.com/@cmacbeth/CSE280Week6A
+* REPL 6B - https://replit.com/@cmacbeth/CSE280Week6B
+* REPL 6C - https://replit.com/@cmacbeth/CSE280Week6C
+
+Completed Code:
+
+* REPL 6A - https://replit.com/@cmacbeth/CSE280Week6ASolved
+* REPL 6B - https://replit.com/@cmacbeth/CSE280Week6BSolved
+* REPL 6C - https://replit.com/@cmacbeth/CSE280Week6CSolved
+
+## Week 7
+
+Starting Code:
+
+* REPL 7A - https://replit.com/@cmacbeth/CSE280Week7A
+* REPL 7B - https://replit.com/@cmacbeth/CSE280Week7B
+* REPL 7C - https://replit.com/@cmacbeth/CSE280Week7C
+
+Completed Code:
+
+* REPL 7A - https://replit.com/@cmacbeth/CSE280Week7ASolved
+* REPL 7B - https://replit.com/@cmacbeth/CSE280Week7BSolved
+* REPL 7C - https://replit.com/@cmacbeth/CSE280Week7CSolved
+
 ## Week 8
 
 No code examples this week.

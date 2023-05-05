@@ -93,25 +93,6 @@ Complete the following truth tables (the first one is done for you):
 
 ## Question 3
 
-Complete the following truth table to show that $A \equiv B$ (logically equivalent) where
-
-$A : p \to \neg (q \land r)$
-
-$B : \neg (p \land q \land r)$
-
-|$p$|$q$|$r$|$q \land r$|$\neg (q \land r)$|$A: p \to \neg (q \land r)$|$p \land q \land r$|$B: \neg (p \land q \land r)$|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|T|T|T||||||
-|T|T|F||||||
-|T|F|T||||||
-|T|F|F||||||
-|F|T|T||||||
-|F|T|F||||||
-|F|F|T||||||
-|F|F|F||||||
-
-## Question 4
-
 Determine if the following propositions written in English are True or False (the first one is done for you):
 
 |Proposition|True or False|
@@ -124,7 +105,7 @@ Determine if the following propositions written in English are True or False (th
 |$1+3=2$ if and only if the earth is flat.||
 |$1 \lt 2$ if an only if $2 \lt 3$.||
 
-## Question 5
+## Question 4
 
 There is another operator called exclusive or which uses the operator symbol $\oplus$.  It is like the traditional $\lor$ but it excludes the case where both $p$ and $q$ are True.  This operator is used frequently in electronics.  The truth table for $p \oplus q$ is given below:
 
