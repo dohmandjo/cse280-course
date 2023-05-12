@@ -33,6 +33,8 @@ Consider the following two graphs.  If these graphs are isomorphic, then fill in
 
 Consider the Finite State Machine (FSM) below.
 
+![](group6_graph5.png)
+
 **Part 1**
 
 * What is the final state with input 100011?  Is the input accepted?

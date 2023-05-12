@@ -10,14 +10,14 @@ file completed or uncompleted in a public file sharing site.
 Let the following statements by given:
 
 * $p = $ "You used the pool in the afternoon."
-* $q = $ "You leaned up after lunch."
+* $q = $ "You cleaned up after lunch."
 * $r = $ "You must clean up after dinner."
 
 **Part 1**
 
 Use connectives (operators) to translate the following statement into formal logic:
 
-"If you used the pool in the afternoon and you didn't lean up after lunch, then you must clean up after dinner."
+"If you used the pool in the afternoon and you didn't clean up after lunch, then you must clean up after dinner."
 
 **Part 2**
 

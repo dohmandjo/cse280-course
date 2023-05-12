@@ -63,7 +63,7 @@ Supose that a package contains 144 eggs, and half of them are spoiled.  How like
 Answer: 
 
 ## Question 8
-Suppose you draw a skittle from one of the three boxes that you choose at random.  The first box contains 1 purple, 3 red, and 4 blue skittles.  The second box contains four purple, two red, and two blue skittles.  The third box contains two purple, one red, and four blue skittles.  What is the probability that you selected the first box if you got a red skittle.  In other words what is the probability of selecting the first box given that a red skittle was selected.  Round your answer to the nearest hundreth.
+Student data shows that 80% of all students passed CSE 999.  Furthermore, 90% of all passing students missed no more than 2 days of class.  By contrast, 70% of non-passing students missed no more than 2 days of class.  What is the probability that a randomly chosen stundent passes CSE 999, given that they missed no more than 2 days of class?  Use Bayes Theorem to solve.
 
 Answer:  
 
@@ -75,8 +75,3 @@ Consider the following road grid in which you can only go right and up.  Given a
 
 Answer: 
 
-## Question 10
-
-The probability of a seed germinating is $5/6$.  The probability of a seed germinating and producing fruit is $1/8$.  What is the probability that a seed will produce fruit (round to the nearest hundreth)?
-
-Answer: 

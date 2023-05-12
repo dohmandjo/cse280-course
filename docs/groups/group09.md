@@ -20,7 +20,7 @@ Evaulate the following:
 
 * $\displaystyle\sum_{i=-5}^{5}i^2$
 
-* $\displaystyle\sum_{i=0}^{10}\lfloor \frac{1}{i} \rfloor$
+* $\displaystyle\sum_{i=0}^{10}\lfloor \frac{i}{3} \rfloor$
 
 ## Question 3
 
@@ -30,7 +30,7 @@ After reviewing the following code, predict what will be displayed.
 def getValue(n):
     if n == 0
         return 2
-    if n == 2
+    if n == 1
         return 1
     return getValue(n-1) + getValue(n-2)
 

@@ -28,14 +28,14 @@ Translate the following statements into prediate logic:
 
 * Some plants are poisonous.
 * Jeff has never eaten a poisonous plant.
-* There are some nonpoisonous plants that Jeff has never eaten.
+* There are some non-poisonous plants that Jeff has never eaten.
 
 ## Question 3
 
 In the domain of all zonzero integers, let $I(x,y)$ be the predicate "$x / y$ is an integer."  Determine whether the following statements are true or false, and explain why.
 
 * $(\forall y)(\exists x)I(x,y)$
-* $(\exists y)(\forall y)I(x,y)$
+* $(\exists x)(\forall y)I(x,y)$
 
 ## Question 4
 
@@ -54,9 +54,9 @@ Write the statement in predicate logic.  Hint: There is a conditional ($\to$) in
 
 **Part 2**
 
-Formally negate the statement (moving the \neg as far to the right as possible).
+Formally negate the statement (moving the $\neg$ as far to the right as possible).
 
 **Part 3**
 
-Write the english translation of your negated sentance
+Write the english translation of your negated sentance.
 
