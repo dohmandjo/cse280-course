@@ -1,3 +1,8 @@
+---
+layout: default
+title: "W01 Group"
+---
+
 # CSE 280 Group 01
 
 (c) BYU-Idaho - It is an honor code violation to post this
