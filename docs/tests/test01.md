@@ -461,7 +461,7 @@ Select the order in which the vertices are visited in a pre-order traversal of t
 
 ## Question 38
 
-Select the orrect adjacency representaiton for the graph below:
+Select the correct adjacency representation for the graph below:
 
 ![](test1_problem38.png)
 
