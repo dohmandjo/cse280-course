@@ -104,7 +104,7 @@ Evaluate the following propositions to be True or False given that the domain of
 
 ## Question 5
 
-Negate each of the following logical statements by adding a negation symbol $\neg$, then apply De Morgan's Laws so that each negation symbol $\neg$ immediately prceeds a predicate.  The first one is done for you.
+Negate each of the following logical statements by adding a negation symbol $\neg$, then apply De Morgan's Laws one or more times to move the $\neg$ as far to the right as possible. The first one is done for you.
 
 |Predicate|$\neg$ Predicate|
 |:-:|:-:|

@@ -116,7 +116,7 @@ There is another operator called exclusive or which uses the operator symbol $\o
 |F|T|T|
 |F|F|F|
 
-There is no built-in python function that implements exclusive or.  Implement the `xor` function below using the `and`, `or`, and `not` operators.  If you want to use a different programming language, you will need to modify the test code to support your language choice.
+There is no built-in python function that implements exclusive or.  Implement the `xor` function below using the `and`, `or`, and `not` operators.  
 
 ```python
 def xor(p, q):

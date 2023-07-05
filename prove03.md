@@ -22,7 +22,7 @@ Let $E$ be the set of even numbers, and let $P$ be the set of prime numbers.  Fi
 Let the following sets be given.  The Universal set for this problem is the set of all students at some univeristy:
 
 * $F$ = the set of all freshmen
-* $M$ = the set of all math majors
+* $M$ = the set of all math minors
 * $C$ = the set of all CS majors
 
 Translate $(F \cap M) \subseteq C$ into an english sentance.
@@ -37,7 +37,7 @@ For each set described below, list 4 example values that would be in that set.  
 |:-:|:-:|
 |$\lbrace x \in \mathbf{Z}^+ \mid x-1 \text{ is a multiple of 7} \rbrace$||
 |$\lbrace x \mid x \text{ is a fruit and its skin is normally eaten} \rbrace$||
-|$\lbrace x \mid x \in \mathbf{Z}, \frac 1 x \rbrace$||
+|$\lbrace \frac 1 x \mid x \in \mathbf{Z}, x \neq 0 \rbrace$||
 |$\lbrace 2n \mid n \in \mathbf{Z}, n \lt 0 \rbrace$||
 |$\lbrace s \mid s = 1 + 2 + ... + n \text{ for some } n \in \mathbf{Z}^+ \rbrace$||
 
@@ -101,7 +101,7 @@ Using the starting code below to create set comprehensions as follows:
 |Set1|$\lbrace \frac 1 n \mid n \in \lbrace 2, 4, 8, 16 \rbrace \rbrace$|
 |Set2|$\lbrace n^2 \mid n \in \lbrace -2, -1, 0, 1, 2 \rbrace \rbrace$|
 |Set3|$\lbrace n \mid n \in \mathbf{Z}^+ \land n \text{ is a factor of } 24 \rbrace$|
-|Set4|$\lbrace n \mid n \in \mathbf{Z} \land n \ge -10 \land n \le 10 \land n \text { is odd.} \rbrace$|
+|Set4|$\lbrace n \mid n \in \mathbf{Z}, -10 \le n \le 10, n \text { is odd.} \rbrace$|
 
 
 ```python

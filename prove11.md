@@ -89,7 +89,9 @@ Answers:
 
 ## Question 5
 
-The python code below implements the Extended Euclidean Algorithm with function `gcd_ext`.  The result of the `gcd_ext(x,y)` function is a 3 element tuple `(r,s,t)` where $r = s*x + t*y$.  For example, `gcd_ext(83,96)` will result in `(1,-37,32)` which represents $1 = -37*86 + 32*96$.
+### Part 1
+
+Create public and private RSA keys by selecting two prime numbers $p$ and $q$ that are in the range $[100,1000]$ (for performance reasons).  Don't select a $p$ and $q$ that we used in the reading or in classroom examples. Calculate $N$ and $\phi$.  Select a value of $e$ such that $gcd(e,\phi)=1$.  Find the multiplicative inverse for $e \text{ mod } \phi$ (called $d$).  You can use the following code to find the value of $d$.  This code implements the Extended Eculidean Algorithm and provides the GCD and the linear combination for the GCD.  If `x` and `y` are provided to the function, it will return a tuple `(r,s,t)` where `r` is the GCD and $r = s*x + t*y$.
 
 ```python
 def gcd_ext(x,y):
@@ -102,25 +104,7 @@ def gcd_ext(x,y):
         (old_r, r) = (r, old_r - q * r)
         (old_s, s) = (s, old_s - q * s)
         (old_t, t) = (t, old_t - q * t)
-    return (old_r, old_s, old_t)
-```
-
-Complete the python function `mi` below to calculate the multiplicative inverse of $x \text{ mod } n$ using the `gcd_ext` function above.  As an example, `mi(83,96)` should return a value of 59.  You should return `None` if no multiplicative inverse exists.  You can also check your code on question 4 above.  
-
-```python
-def mi(x,n):
-    # Put your code here using the gcd_ext function
-    pass
-
-print(mi(83,96)) # 59
-print(mi(675,210)) # None
-```
-
-## Question 6
-
-### Part 1
-
-Create public and private RSA keys by selecting two prime numbers $p$ and $q$ that are less than 1000 (for performance reasons).  Don't select a $p$ and $q$ that we used in the reading or in classroom examples.  Calculate $N$ and $\phi$.  Select a value of $e$ such that $gcd(e,\phi)=1$.  Find the multiplicative identity for $e \text{ mod } \phi$ (called $d$).  You can use the code from question 5 above to find the value of $d$.  
+    retu 
 
 Answers:
 * $p = $

@@ -38,7 +38,7 @@ Identify the pre-order and post-order traversal for the tree below.  Your answer
 
 ## Question 4
 
-Identify the Depth First Search tree and the Breadth First Search tree for the graph below.  Your answer should be a comma separated list of tuples showing each of the edges in the Tree.  For example, if the edge between vertex $c$ and $e$ was in the tree, you would write $(c,e)$.  Start your traversal from vertex $a$ for both types.
+Identify the Depth First Search tree and the Breadth First Search tree for the graph below.  Your answer should be a comma separated list of tuples showing each of the edges in the Tree.  For example, to represent a path between $c$ and $d$ going through $e$ the representation would be $(c,e), (e,d)$.  Start your traversal from vertex $a$ for both types.  There may be multiple correct answers.
 
 ![](prove07_graph3.png)
 

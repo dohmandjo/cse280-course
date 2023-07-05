@@ -19,7 +19,7 @@ Tessie and her friends have between them 15 board games, 12 card games, and 1 wo
 
 ## Question 2
 
-Now Tessie and her friends have acquired two more word games (for a total of 3) and have deided to vary the snacks they munch on while playing games.  They have selected 7 different types of snacks.  If a game-night configuration consists of a word game, another game (either a board or card game), and a snack, then how many different game-night configuraitons are possible now?
+Now Tessie and her friends have acquired two more word games (for a total of 3) and have deided to vary the snacks they munch on while playing games.  They have selected 7 different types of snacks.  If a game-night configuration consists of a word game, another game (either a board or card game), and a snack, then how many different game-night configurations are possible now?
 
 **Answer**: 
 
@@ -37,7 +37,7 @@ How many three-letter acronyms (arrangements of 3 alphabetic letters) are there 
 
 ## Question 5
 
-How many different sequences of initials (upper-case letters A-Z) are there for people who either have two initials (first and last) or three initials (first, middle, last)?  
+How many three-letter acronyms (arrangements of 3 alphabetic letters) are there with repetition **not** allowed?  Assume uppercase (A-Z) only.
 
 **Answer**: 
 
@@ -80,7 +80,7 @@ What is the number of different strings that can be formed by reordering the cha
 
 ### Part 1
 
-Implement the `P` function and the `C` function to compute the $r$-permutation and $r$-combination, respecitely for a set of size $n$.  You will need to use the `factorial` function provided in the `math` library in Python.
+Implement the `P` function and the `C` function to compute the $r$-permutation and $r$-combination, respectively for a set of size $n$.  You will need to use the `factorial` function provided in the `math` library in Python.
 
 ```python
 from math import factorial
