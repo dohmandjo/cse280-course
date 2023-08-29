@@ -47,9 +47,9 @@ Complete the following truth tables (the first one is done for you):
 |F|T||
 |F|F||
 
-3. $\neg p \lor q$
+3. $\neg p \to q$
 
-|$p$|$q$|$\neg p$|$\neg p \lor q$|
+|$p$|$q$|$\neg p$|$\neg p \to q$|
 |:-:|:-:|:-:|:-:|
 |T|T|||
 |T|F|||
