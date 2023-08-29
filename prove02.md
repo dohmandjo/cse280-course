@@ -74,7 +74,6 @@ identify which of the following english sentences match to each proposition (the
 * Someone is my friend and is cool.
 * All students are from Nepal.
 * Everyone is a friend and is cool.
-* Some students are from Nepal.
 
 |Proposition|English Sentence|
 |-|-|
@@ -83,7 +82,6 @@ identify which of the following english sentences match to each proposition (the
 |$\forall x \ (F(x) \land C(x))$||
 |$\exists x \ (F(x) \to C(x))$||
 |$\forall x \ (S(x) \to N(x))$||
-|$\exists x \ (S(x) \to N(x))$||
 |$\forall x \ (S(x) \land N(x))$||
 |$\exists x \ (S(x) \land N(x))$||
 
@@ -141,39 +139,39 @@ def exists(predicate, domain):
     # Add your code here to return True or False
 
 numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(forall(is_even,numbers1))
-print(exists(is_even,numbers1))
+print(forall(is_even,numbers1)) # False
+print(exists(is_even,numbers1)) # True
 print("================================")
-print(forall(is_natural,numbers1))
-print(exists(is_natural,numbers1))
+print(forall(is_natural,numbers1)) # True
+print(exists(is_natural,numbers1)) # True
 print("================================")
 
 numbers2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(forall(is_natural,numbers2))
-print(exists(is_natural,numbers2))
+print(forall(is_natural,numbers2)) # False
+print(exists(is_natural,numbers2)) # True
 
 print("================================")
 words1 = ['civic', 'rotor', 'apple']
-print(forall(is_palindrome,words1))
-print(exists(is_palindrome,words1))
+print(forall(is_palindrome,words1)) # False
+print(exists(is_palindrome,words1)) # True
 print("================================")
 
 words2 = ['racecar', 'madam', '123454321']
-print(forall(is_palindrome,words2))
-print(exists(is_palindrome,words2))
+print(forall(is_palindrome,words2)) # True
+print(exists(is_palindrome,words2)) # True
 print("================================")
 
 words3 = ['no', 'palindromes', 'here']
-print(forall(is_palindrome,words3))
-print(exists(is_palindrome,words3))
+print(forall(is_palindrome,words3)) # False
+print(exists(is_palindrome,words3)) # False
 print("================================")
 
 points1 = [(0.5,0.5), (-1,0), (-0.75,-0.3)]
-print(forall(in_unit_circle,points1))
-print(exists(in_unit_circle,points1))
+print(forall(in_unit_circle,points1)) # True
+print(exists(in_unit_circle,points1)) # True
 print("================================")
 
 points2 = [(0.25,-1), (0.9,1.1), (0.1,-0.1)]
-print(forall(in_unit_circle,points2))
-print(exists(in_unit_circle,points2))
+print(forall(in_unit_circle,points2)) # False
+print(exists(in_unit_circle,points2)) # True
 ```
