@@ -21,7 +21,7 @@ Answer:
 
 ## Question 2
 
-Referring back to Question 1, how many bits smaller is the encoded value of "MISSISSIPPI" from that of the original string value?  Recall that each letter in 8 bits and each 1 or 0 in the encoding is 1 bit.
+Referring back to Question 1, how many bits smaller is the encoded value of "MISSISSIPPI" from that of the original string value?  Recall that each unecoded letter is 8 bits and each 1 or 0 in the encoding is 1 bit.
 
 Answer: 
 

@@ -31,7 +31,7 @@ Translate $(F \cap M) \subseteq C$ into an english sentance.
 
 ## Question 3
 
-For each set described below, list 4 example values that would be in that set.  The first one is done for you.  Remember that $\mathbf{Z}$ represents integers and $\mathbf{Z}^+$ represents positive integers greater than 0.  The set $\mathbf{Q}$ represents rational numbers that can be represented as a fraction $\frac a b$ where $a, b \in \mathbf{Z}$.
+For each set described below, list 4 example values that would be in that set.  The first one is done for you.  Remember that $\mathbf{Z}$ represents integers and $\mathbf{Z}^+$ represents positive integers greater than 0.  
 
 |Set|Four Example Values in the Set|
 |:-:|:-:|
@@ -84,23 +84,23 @@ Hint: Make a list of numbers that are in each of these sets.
 
 ## Question 7
 
-List all of the partitions  (how many ways can we split according to the rules) of the set $A = \lbrace a, b, c \rbrace$.
+List all of the partitions  (how many ways can we split according to the rules of partitions) of the set $A = \lbrace a, b, c \rbrace$.
 
 **Answer**: 
 
 ## Question 8
 
-In Python, you can create sets using "set comprehensions" (which is similar to "list comprehensions").  We read the following $S = \lbrace P(x) \mid x \in D \land C(x) \rbrace$ in English as "$S$ is the set of all values $P(x)$ such that $x$ is an element of the domain set $D$ and satisifies the condition $C(X)$".  We can translate this into Python code as: `S = {P(x) for x in D if C(x)}`.  The function calls `P(x)` and `C(x)` can be other defined function, other defined lambda function, or expressions written directly in the set comprehension.  Additionally, $D$ could be a set defined in a different variable or it could be provided directly in the set comprehension.
+In Python, you can create sets using "set comprehensions" (which is similar to "list comprehensions").  We read the following $S = \lbrace P(x) \mid x \in D \land C(x) \rbrace$ in English as "$S$ is the set of all values $P(x)$ such that $x$ is an element of the domain set $D$ and satisifies the condition $C(X)$".  We can translate this into Python code as: `S = {P(x) for x in D if C(x)}`.  The function calls `P(x)` and `C(x)` can be other defined functions, other defined lambda functions, or expressions written directly in the set comprehension.  Additionally, $D$ could be a set defined in a different variable or it could be provided directly in the set comprehension.
 
 Recall the use of the `range(a,b)` function in Python to generate an iterable collections from `a` to `b-1`.
 
-Using the starting code below to create set comprehensions as follows:
+Use the starting code below to create set comprehensions as follows:
 
 |Set ID|Set Builder Notation|
 |:-:|:-:|
 |Set1|$\lbrace \frac 1 n \mid n \in \lbrace 2, 4, 8, 16 \rbrace \rbrace$|
 |Set2|$\lbrace n^2 \mid n \in \lbrace -2, -1, 0, 1, 2 \rbrace \rbrace$|
-|Set3|$\lbrace n \mid n \in \mathbf{Z}^+ \land n \text{ is a factor of } 24 \rbrace$|
+|Set3|$\lbrace n \mid n \in \mathbf{Z}^+,  n \text{ is a factor of } 24 \rbrace$|
 |Set4|$\lbrace n \mid n \in \mathbf{Z}, -10 \le n \le 10, n \text { is odd.} \rbrace$|
 
 
