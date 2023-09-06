@@ -5,7 +5,7 @@ file completed or uncompleted in a public file sharing site.
 
 **Instructions**: Answer each question using proper markdown notation as needed.  Use the preview view in Visual Studio Code (or another editor if desired) to see the formatting, tables, and mathematical formula properly rendered.  If you need to write code, then first test your code in a separate file and then copy the code into this document using code fences. 
 
-**Name**:
+**Name**: 
 
 **Section**:
 
@@ -15,7 +15,7 @@ file completed or uncompleted in a public file sharing site.
 
 Identify (with an "X") whether each statement is either a proposition or non-propisition.  The first two are done for you:
 
-|Statement|Proposition|Non-Propisition|
+|Statement|Proposition|Non-Proposition|
 |:-:|:-:|:-:|
 |I got an A in CSE 280|X||
 |Hello!||X|
