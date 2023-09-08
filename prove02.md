@@ -11,7 +11,7 @@ file completed or uncompleted in a public file sharing site.
 
 **Teacher**:
 
-## Question 1
+## Question 1 (7 points)
 
 Complete the following truth table to show that $A \equiv B$ (logically equivalent) where
 
@@ -30,7 +30,7 @@ $B : \neg (p \land q \land r)$
 |F|F|T||||||
 |F|F|F||||||
 
-## Question 2
+## Question 2 (8 points)
 
 Using the following predicates where the domain of $x$ is the set of all people:
 
@@ -53,7 +53,7 @@ express the following propositions in English senteneces (the first two are done
 |$\neg \forall x \ \neg S(x)$||
 |$\forall x \ \neg S(x)$||
 
-## Question 3
+## Question 3 (6 points)
 
 Using the following predicates where the domain of $x$ is the set of all people:
 
@@ -85,7 +85,7 @@ identify which of the following english sentences match to each proposition (the
 |$\forall x \ (S(x) \land N(x))$||
 |$\exists x \ (S(x) \land N(x))$||
 
-## Question 4
+## Question 4 (8 points)
 
 Evaluate the following propositions to be True or False given that the domain of $x$ is the following integers: $\lbrace -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5 \rbrace$:
 
@@ -100,7 +100,7 @@ Evaluate the following propositions to be True or False given that the domain of
 |$\exists x \ (x + x = 1)$||
 |$\exists x \ (x + 2 = 1)$||
 
-## Question 5
+## Question 5 (10 points)
 
 Negate each of the following logical statements by adding a negation symbol $\neg$, then apply De Morgan's Laws one or more times to move the $\neg$ as far to the right as possible. The first one is done for you.
 
@@ -113,7 +113,7 @@ Negate each of the following logical statements by adding a negation symbol $\ne
 |$\exists x \exists y \ (P(x,y) \land Q(x,y))$||
 |$\forall x \forall y \exists z \ (P(x,y) \to Q(y,z))$||
 
-## Question 6
+## Question 6 (11 points)
 
 The following code provides several predicates (`is_even`, `is_natural`, and `is_palindrome`).  There are multiple test cases that will determine whether the quantifier proposition is True or False given the specified domain.  You need to implement the `forall` and `exists` functions.  Hint: You will need to loop through all the items in the `domain` (which is a list) and use the `predicate` (which is a function) to test all or some of the values in the `domain`.
 

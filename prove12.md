@@ -11,37 +11,37 @@ file completed or uncompleted in a public file sharing site.
 
 **Teacher**:
 
-## Question 1
+## Question 1 (3 points)
 
 Tessie and her friends have between them 15 board games, 12 card games, and 1 word game.  If their game nights feature the word game plus one other game (either a board game or a card game), how many different game nights can they have?
 
 **Answer**: 
 
-## Question 2
+## Question 2 (3 points)
 
 Now Tessie and her friends have acquired two more word games (for a total of 3) and have deided to vary the snacks they munch on while playing games.  They have selected 7 different types of snacks.  If a game-night configuration consists of a word game, another game (either a board or card game), and a snack, then how many different game-night configurations are possible now?
 
 **Answer**: 
 
-## Question 3
+## Question 3 (3 points)
 
 How many different 8-character passwords are possible if all uppercase (A-Z), lowercase (a-z), and digits (0-9) are allowed?
 
 **Answer**: 
 
-## Question 4
+## Question 4 (3 points)
 
 How many three-letter acronyms (arrangements of 3 alphabetic letters) are there with repetition allowed?  Assume uppercase (A-Z) only.
 
 **Answer**: 
 
-## Question 5
+## Question 5 (3 points)
 
 How many three-letter acronyms (arrangements of 3 alphabetic letters) are there with repetition **not** allowed?  Assume uppercase (A-Z) only.
 
 **Answer**: 
 
-## Question 6
+## Question 6 (3 points)
 
 How many different sequences can be formed using either two or three letters (A-Z) followed by either two or three digits (0-9)?
 
@@ -53,7 +53,7 @@ For example:
 
 **Answer**: 
 
-## Question 7
+## Question 7 (4 points)
 
 Suppose you flip a fair coin 10 times.  Determine how many ways you can get each of the scenarios in the table below.
 
@@ -64,19 +64,19 @@ Suppose you flip a fair coin 10 times.  Determine how many ways you can get each
 |exactly two heads||
 |at least two heads||
 
-## Question 8
+## Question 8 (3 points)
 
 Consider the following fruit that is available to you: raspberries, strawberries, blueberries, apples, oranges, bananas, kiwi, papaya, and mango.  Just choosing five from the list of 9, how many different combinations of fruit salad can you make?
 
 **Answer**: 
 
-## Question 9
+## Question 9 (3 points)
 
 What is the number of different strings that can be formed by reordering the characters in the word `SUCCESS`?
 
 **Answer**: 
 
-## Question 10
+## Question 10 (22 points)
 
 ### Part 1
 
@@ -116,9 +116,4 @@ Use the `C(n,r)` function you wrote to answer the following problems:
 |How many ways can we select 8 people from a group of 26 people to work on a single project, assuming all people are equally qualified?||
 |How many ways can we selet 15 winners for a vacation drawing from a group of 100 contestants assuming each prize is the same?||
 
-### Part 4
-
-In general, are there more $r$-permutations or $r$-combinations for a given set of $n$ elements?  Why?
-
-**Answer**:  
 

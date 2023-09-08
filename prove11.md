@@ -11,7 +11,7 @@ file completed or uncompleted in a public file sharing site.
 
 **Teacher**:
 
-## Question 1
+## Question 1 (9 points)
 
 Find the $gcd$ for each of the following by hand using Eulid's Algorithm  Show your work in the tables below.  The first one is done for you.  Add more rows to each table as needed.  You can check your work with a calculator.
 
@@ -55,7 +55,7 @@ Answer:
 
 Answer: 
 
-## Question 2
+## Question 2 (10 points)
 
 Find the $gcd$ for the first three problems from Question 1 using the Extended Eulcid Algorithm to express the answer as a linear combination.  The first one is done for you.
 
@@ -66,7 +66,7 @@ Find the $gcd$ for the first three problems from Question 1 using the Extended E
 |$gcd(110,765)$||
 
 
-## Question 3
+## Question 3 (8 points)
 
 Find the multiplicative inverse for $x \text{ mod } n$ in the table below.  These numbers are smaller so you don't need to use the Extended Euclidean Algorithm to solve.  You can check your answers by verifying that $sx \text{ mod } n = 1$ where $s$ is the multiplicative inverse you calculated.
 
@@ -77,7 +77,7 @@ Find the multiplicative inverse for $x \text{ mod } n$ in the table below.  Thes
 |7|20||
 |3|13||
 
-## Question 4
+## Question 4 (9 points)
 Use the Extended Euclidean Algorithm to find the multiplicative inverse of $83 \text{ mod } 96$.  You can check your answer by verifying that $s*83 \text{ mod } 96 = 1$ where $s$ is the multiplicative inverse you calculated.  
 
 In your answer, provide both the linear combination of $1 = s*83 + t*96$ and the multiplicative inverse derived from it.
@@ -87,7 +87,7 @@ Answers:
 * $t = $
 * Multiplicative Inverse = 
 
-## Question 5
+## Question 5 (14 points)
 
 ### Part 1
 
@@ -104,7 +104,8 @@ def gcd_ext(x,y):
         (old_r, r) = (r, old_r - q * r)
         (old_s, s) = (s, old_s - q * s)
         (old_t, t) = (t, old_t - q * t)
-    retu 
+    return (old_r, old_s, old_t)
+``````
 
 Answers:
 * $p = $

@@ -11,7 +11,7 @@ file completed or uncompleted in a public file sharing site.
 
 **Teacher**:
 
-## Question 1
+## Question 1 (4 points)
 
 Give the first six terms of the following sequences starting with the value specified.
 
@@ -22,7 +22,7 @@ Give the first six terms of the following sequences starting with the value spec
 |A geometric sequence in which the first value is 36 and the common ratio is 1/4.||
 |An arithmetic sequence in which the first value is 9 and the common difference is -1/2.||
 
-## Question 2:
+## Question 2 (20 points)
 
 Write recursive functions in python that will return the value of $f_n$ term for the following recurence relations.  The test code will generate $f_0, f_1, \text{ ... } , f_9$
 
@@ -52,7 +52,7 @@ print([fun3(n) for n in range(10)]) # [1, 3, 3, 9, 27, 243, 6561, 1594323, 10460
 print([fun4(n) for n in range(10)]) # [1, 5, 6, 31, 67, 1028, 5517, 1062301, 31499590, 1128514914191]
 ```
 
-## Question 3
+## Question 3 (6 points)
 
 Evaluate the following sums manually:
 
@@ -62,7 +62,7 @@ Evaluate the following sums manually:
 |$\displaystyle\sum_{i=1}^{4}(-1)^i$||
 |$\displaystyle\sum_{i=0}^{5}2^i$||
 
-## Question 4
+## Question 4 (20 points)
 
 Write a list comprehension in Python for each of the following.  The `sum` function is called in the test code to evaluate the $\sum$.
 

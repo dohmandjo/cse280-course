@@ -11,7 +11,7 @@ file completed or uncompleted in a public file sharing site.
 
 **Teacher**:
 
-## Question 1
+## Question 1 (24 points)
 
 For each of these functions, determine if they are well-defined, one-to-one, and/or onto.  Put "Yes" or "No" in the appropriate columns.  For the first 4 problems, let $A=\lbrace 1,2,3,4 \rbrace$ and $B=\lbrace a, b, c, d \rbrace$.  For the last 4 functions written in the format $f(x)=$ you may find it helpful to graph the function on [Desmos](https://www.desmos.com/).  The first one is done for you.
 
@@ -27,7 +27,7 @@ For each of these functions, determine if they are well-defined, one-to-one, and
 |$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$||||
 |$f : \lbrace x \mid x \in \mathbf{R} , x \ne 5 \rbrace \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$||||
 
-## Question 2
+## Question 2 (9 points)
 
 Explain why $f : \mathbf{R} \to \mathbf{R} \text{ where } f(x) = x^2$ is a well defined funtion but is niether one-to-one nor onto (with counterexamples as needed).
 
@@ -36,7 +36,7 @@ Explain why $f : \mathbf{R} \to \mathbf{R} \text{ where } f(x) = x^2$ is a well 
 * Not One-to-One because ...
 * Not Onto because ...
 
-## Question 3
+## Question 3 (9 points)
 
 Find the inverse of each of the following functions, calculate $f(3)$, and then calculate the composition of $(f^{-1} \circ f)(3)$ (which will prove that you have found the correct inverse).
 
@@ -47,7 +47,7 @@ Find the inverse of each of the following functions, calculate $f(3)$, and then 
 |$f : \lbrace x \in \mathbf{R} : x \ge -2 \rbrace \to \mathbf{R}^+$|$x^2-2$||||
 
 
-## Question 4
+## Question 4 (8 points)
 
 Create lambda functions to implement the following functions that have domain of $\mathbf{R}$ and co-domain of $\mathbf{R}$:
 

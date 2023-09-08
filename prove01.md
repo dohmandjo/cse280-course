@@ -11,7 +11,7 @@ file completed or uncompleted in a public file sharing site.
 
 **Teacher**:
 
-## Question 1
+## Question 1 (5 points)
 
 Identify (with an "X") whether each statement is either a proposition or non-propisition.  The first two are done for you:
 
@@ -25,7 +25,7 @@ Identify (with an "X") whether each statement is either a proposition or non-pro
 |The window is closed.|||
 |Are you graduating this semester?|||
 
-## Question 2
+## Question 2 (28 points)
 
 Complete the following truth tables (the first one is done for you):
 
@@ -91,7 +91,7 @@ Complete the following truth tables (the first one is done for you):
 |F|F|T||||||
 |F|F|F||||||
 
-## Question 3
+## Question 3 (12 points)
 
 Determine if the following propositions written in English are True or False (the first one is done for you):
 
@@ -105,7 +105,7 @@ Determine if the following propositions written in English are True or False (th
 |$1+3=2$ if and only if the earth is flat.||
 |$1 \lt 2$ if an only if $2 \lt 3$.||
 
-## Question 4
+## Question 4 (5 points)
 
 There is another operator called exclusive or which uses the operator symbol $\oplus$.  It is like the traditional $\lor$ but it excludes the case where both $p$ and $q$ are True.  This operator is used frequently in electronics.  The truth table for $p \oplus q$ is given below:
 
