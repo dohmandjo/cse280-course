@@ -75,7 +75,7 @@ Determine if the graph below has an Euler Circuit.  If it does, then write down 
 |![](prove06_graph5.png)||
 |![](prove06_graph6.png)||
 
-## Question 5 (20 points)
+## Question 5 (15 points)
 
 Complete the tables below to identify the final state (per the FSM diagram) and whether that final state was an accepting state for each of the inputs.   
 
@@ -109,7 +109,7 @@ Complete the tables below to identify the final state (per the FSM diagram) and 
 |11100|||
 |10011|||
 
-## Question 6
+## Question 6 (5 points)
 
 Describe the bit string recognized/accepted by the following FSM:
 
