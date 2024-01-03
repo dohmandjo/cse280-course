@@ -25,7 +25,7 @@ Fill in the adjacency table below for the graph below:
 |3||
 |4||
 
-## Question 2 (4 points)
+## Question 2 (8 points)
 
 The list of 9 graphs below have 4 pairs of isomorphic graphs.  Find the 4 pairs.  Note that one of the graphs does not have a match.
 
@@ -40,7 +40,7 @@ The list of 9 graphs below have 4 pairs of isomorphic graphs.  Find the 4 pairs.
 
 Source: Question adapted from Applied Discrete Structures by Alan Doerr & Kenneth Levasseur which is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
 
-## Question 3 (15 points)
+## Question 3 (11 points)
 
 Write python code to create an adjacency table for the undirected graph below.  Second, implement the `find_neighbors` function which will take as input vertex and the adjaceny table and returns a list of verticies that are adjacent to the input vertex.  Finally, implement the `is_neighbor` which takes two verticies and the adjaceny table and returns True if they are adjacent; False otherwise.
 
@@ -75,7 +75,7 @@ Determine if the graph below has an Euler Circuit.  If it does, then write down 
 |![](prove06_graph5.png)||
 |![](prove06_graph6.png)||
 
-## Question 5 (15 points)
+## Question 5 (16 points)
 
 Complete the tables below to identify the final state (per the FSM diagram) and whether that final state was an accepting state for each of the inputs.   
 
@@ -109,7 +109,7 @@ Complete the tables below to identify the final state (per the FSM diagram) and 
 |11100|||
 |10011|||
 
-## Question 6 (5 points)
+## Question 6 (4 points)
 
 Describe the bit string recognized/accepted by the following FSM:
 

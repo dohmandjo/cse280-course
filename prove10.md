@@ -59,7 +59,7 @@ Find the GCD and LCM of the following numbers shown in non-decresasing prime fac
 
 ## Question 5 (7 points)
 
-Find the numbers in the set $S$ that are part of the equivalance relation $\mathbf{R}_7$.  In other words, find the numbers that are congruent $(\text{mod } 7)$ and put them into the appropriate equivalance classes in the table below.
+Find the numbers in the set $S$ that are part of the equivalance relation $\mathbf{Z}_7$.  In other words, find the numbers that are congruent $(\text{mod } 7)$ and put them into the appropriate equivalance classes in the table below.
 
 $S = \lbrace -48, -26, 1, 8, 3, 70, 24, 32, 11, 5, 27, 19, 49 \rbrace$
 
