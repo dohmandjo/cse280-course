@@ -69,7 +69,7 @@ identify which of the following english sentences match to each proposition (the
 
 * All people are both students and from Nepal.
 * All of my friends are cool.
-* Some of my friends are cool.
+* Someone is my friend or cool (maybe even both).
 * Some student is from Nepal.
 * Someone is my friend and is cool.
 * All students are from Nepal.
@@ -80,7 +80,7 @@ identify which of the following english sentences match to each proposition (the
 |$\forall x \ (F(x) \to C(x))$|All of my friends are cool.|
 |$\exists x \ (F(x) \land C(x))$||
 |$\forall x \ (F(x) \land C(x))$||
-|$\exists x \ (F(x) \to C(x))$||
+|$\exists x \ (F(x) \lor C(x))$||
 |$\forall x \ (S(x) \to N(x))$||
 |$\forall x \ (S(x) \land N(x))$||
 |$\exists x \ (S(x) \land N(x))$||

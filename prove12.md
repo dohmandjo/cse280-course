@@ -25,7 +25,7 @@ Now Tessie and her friends have acquired two more word games (for a total of 3) 
 
 ## Question 3 (3 points)
 
-How many different 8-character passwords are possible if all uppercase (A-Z), lowercase (a-z), and digits (0-9) are allowed?
+How many different 8-character passwords are possible if all uppercase (A-Z), lowercase (a-z), and digits (0-9) are allowed and duplication is also allowed?
 
 **Answer**: 
 
@@ -43,7 +43,7 @@ How many three-letter acronyms (arrangements of 3 alphabetic letters) are there 
 
 ## Question 6 (3 points)
 
-How many different sequences can be formed using either two or three letters (A-Z) followed by either two or three digits (0-9)?
+How many different sequences can be formed using either two or three letters (A-Z) followed by either two or three digits (0-9) with duplication allowed?
 
 For example:
 * AB01
@@ -66,13 +66,13 @@ Suppose you flip a fair coin 10 times.  Determine how many ways you can get each
 
 ## Question 8 (3 points)
 
-Consider the following fruit that is available to you: raspberries, strawberries, blueberries, apples, oranges, bananas, kiwi, papaya, and mango.  Just choosing five from the list of 9, how many different combinations of fruit salad can you make?
+Consider the following fruit that is available to you: raspberries, strawberries, blueberries, apples, oranges, bananas, kiwi, papaya, and mango.  Just choosing five from the list of 9, how many different combinations (with no duplicates) of fruit salad can you make?
 
 **Answer**: 
 
 ## Question 9 (3 points)
 
-What is the number of different strings that can be formed by reordering the characters in the word `SUCCESS`?
+What is the number of unique strings that can be formed by reordering the characters in the word `SUCCESS`?
 
 **Answer**: 
 

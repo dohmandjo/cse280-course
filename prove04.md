@@ -15,7 +15,7 @@ file completed or uncompleted in a public file sharing site.
 
 For each of these functions, determine if they are well-defined, one-to-one, and/or onto.  Put "Yes" or "No" in the appropriate columns.  For the first 4 problems, let $A=\lbrace 1,2,3,4 \rbrace$ and $B=\lbrace a, b, c, d \rbrace$.  For the last 4 functions written in the format $f(x)=$ you may find it helpful to graph the function on [Desmos](https://www.desmos.com/).  The first one is done for you.
 
-|Function|Well-Defined|One-to-One|Onto|
+|Function|Well-Defined Function|One-to-One Function|Onto Function|
 |:-:|:-:|:-:|:-:|
 |$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(3,c),(4,d) \rbrace$|Yes|Yes|Yes|
 |$f : A \to B, \text{ where } f = \lbrace (1,a),(2,a),(3,b),(4,d) \rbrace$||||

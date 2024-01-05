@@ -45,7 +45,7 @@ Answer:
 
 Answer: 
 
-**Problem D**: $gcd(443,899)$
+**Problem D**: $gcd(493,899)$
 
 |$x$|$y$|$r = y \mod x$|
 |:-:|:-:|:-:|
@@ -91,7 +91,7 @@ Answers:
 
 ### Part 1
 
-Create public and private RSA keys by selecting two prime numbers $p$ and $q$ that are in the range $[100,1000]$ (for performance reasons).  Don't select a $p$ and $q$ that we used in the reading or in classroom examples. Calculate $N$ and $\phi$.  Select a value of $e$ such that $gcd(e,\phi)=1$.  Find the multiplicative inverse for $e \text{ mod } \phi$ (called $d$).  You can use the following code to find the value of $d$.  This code implements the Extended Eculidean Algorithm and provides the GCD and the linear combination for the GCD.  If `x` and `y` are provided to the function, it will return a tuple `(r,s,t)` where `r` is the GCD and $r = s*x + t*y$.
+Create public and private RSA keys by using the two prime number $p = 137$ and $q = 211$. Calculate $N$ and $\phi$.  Select a value of $e$ such that $gcd(e,\phi)=1$.  Find the multiplicative inverse for $e \text{ mod } \phi$ (called $d$).  You can use the following code to find the value of $d$.  This code implements the Extended Eculidean Algorithm and provides the GCD and the linear combination for the GCD.  If `x` and `y` are provided to the function, it will return a tuple `(r,s,t)` where `r` is the GCD and $r = s*x + t*y$.
 
 ```python
 def gcd_ext(x,y):
@@ -108,8 +108,8 @@ def gcd_ext(x,y):
 ``````
 
 Answers:
-* $p = $
-* $q = $
+* $p = 137$
+* $q = 211$
 * $N = $
 * $\phi = $
 * $e = $
@@ -121,8 +121,8 @@ The values of $N$ and $e$ are the public keys.  The value of $d$ is the private 
 
 ```python
 # Put your values from Part 1
-p = 
-q = 
+p = 137
+q = 211
 e = 
 N = 
 phi = 
