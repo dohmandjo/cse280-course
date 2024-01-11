@@ -9,7 +9,7 @@ file completed or uncompleted in a public file sharing site.
 
 **Section**: 02
 
-**Teacher**: Macbeth, Chad Nephi
+**Teacher**: Macbeth, Chad
 
 ## Question 1 (5 points)
 
