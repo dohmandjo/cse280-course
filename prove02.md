@@ -133,10 +133,18 @@ def in_unit_circle(point):
 def forall(predicate, domain):
     print(f"\u2200x ({predicate.__name__}) domain={domain}")
     # Add your code here to return True or False
+    for n in domain:
+        if not predicate(n):
+            return False
+    return True
 
 def exists(predicate, domain):
     print(f"\u2203x ({predicate.__name__}) domain={domain}")
     # Add your code here to return True or False
+    for n in domain:
+        if predicate(n):
+            return True
+    reutrn False
 
 numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(forall(is_even,numbers1)) # False
